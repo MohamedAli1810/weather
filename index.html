@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script
+    src="https://kit.fontawesome.com/981b15123d.js"
+    crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar  py-5 gy-5">
+        <div class="container-fluid justify-content-around">
+          <a class="navbar  " href="./index.html">
+            <img src="./image/imgae1.png" alt="Logo" width="45" height="35" class="d-inline-block me-2 align-text-top">
+             <div class="logo">
+							<h1 class="site-title m-0 p-0">Weather</h1>
+							<small class="site-description">tagline goes here</small>
+						</div>
+          </a>
+          <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link me-lg-3 active" id="pills-tab" data-bs-toggle="pill" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link me-lg-3" id="pills-tab" data-bs-toggle="pill" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">News</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link me-lg-3" id="pills-tab" data-bs-toggle="pill" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Live cameras</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link me-lg-3" id="pills-tab" data-bs-toggle="pill" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Photos</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link me-lg-3" id="pills-tab" data-bs-toggle="pill" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+            </li>
+          </ul>
+        </div> 
+      </nav>
+      <main >
+        <div class="">
+          <div class="pho position-relative  d-flex justify-content-center align-items-center">
+            <form  class="sear w-75 ">
+              <input type="text" placeholder="Find your location..." id="search">
+              <input type="button" value="Find" id="submit">
+            </form>
+          </div>
+          <div class="w-100 sty11">
+            <div class="container">
+              <div class="rounded-4 position-relative row p-lg-5" id="forecast">
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+			<footer class="foot">
+				<div class="container pt-4 pb-5">
+					<div class="row">
+						<div class="position-relative col-lg-8 col-md-12">
+              <form  class="sear mb-lg-0 mb-3 ">
+                <input type="text" class="" placeholder="Enter your email to subscribe..." id="search">
+                <input type="submit" value="Subscribe" id="Subscribe">
+              </form>
+						</div>
+						<div class="col-md-3 p-md-3">
+							<div class="d-flex">
+								<i class="fa fa-facebook me-1  icons-f"></i>
+								<i class="fa fa-twitter me-1 icons-f"></i>
+								<i class="fa fa-google-plus me-1  icons-f"></i>
+								<i class="fa fa-pinterest  icons-f"></i>
+							</div>
+						</div>
+					</div>
+					<p class="pt-lg-5 pt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+				</div>
+			</footer>
+    <script src="./JS/index.js"></script>
+</body>
+</html>

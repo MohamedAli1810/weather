@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    color: #bfc1c8;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.nav-pills #pills-tab {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: transparent;
+}
+.navbar .container-fluid a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.logo h1{
+    color: #fff;
+   font-size: 16px;
+   font-weight: 700;
+}
+.logo small{
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+    font-size: 10px;
+    font-weight: 300;
+}
+nav{
+    background: #1e202b;
+}
+.nav-item:hover a {
+    border: 2px solid ;
+    border-radius: 50px 50px;
+    border-color: #009ad8;
+    color: #009ad8;
+    background-color: transparent;
+    transition: all 250ms;
+}
+.nav-item a{
+    transition: all 1000ms;
+}
+.nav-pills .nav-link.active {
+    border: 2px solid ;
+    border-radius: 50px 50px;
+    border-color: #009ad8;
+    color: #009ad8;
+    background-color: transparent;
+}
+.nav .nav-pills {
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: transparent;
+}
+.nav-item #pills-tab {
+    --bs-nav-pills-link-active-color: #009ad8;
+    --bs-nav-pills-link-active-bg: transparent;
+}
+.pho{
+    width: 100%;
+    background-image: url(../image/imgae2.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.sear input[type="text"] {
+    width: 90%;
+    padding: 20px 50px 20px 50px;
+    background: #1e202b;
+    color: white;
+    position: relative;
+}
+.sear input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+}
+.sear input[type="button"]{
+    border: none;
+    background: #009ad8;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+}
+form input[type="button"]{
+    position: absolute;
+    top: 35%;
+    right: 26%;
+    padding: 0 0px;
+}
+.pro{
+    background-image: url(../image/imgae2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    background: #1e202b;
+}
+sub{
+    top: 30%;
+}
+.sty{
+    background-color: #323544;
+}
+.head{
+    width: 100%;
+    background-color: #2D303D;
+}
+.sty1{
+    background-color: #262936;
+}
+.sty11{
+    background: #1e202b;
+}
+.head2{
+    width: 100%;
+    background-color: #222531;
+}
+.sty2{
+    background-color: #323544;
+}
+.pro2{
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+.foot{
+    background: #262936;
+}
+.sear input[type="submit"]{
+    border: none;
+    background: #009ad8;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+}
+form input[type="submit"]{
+    position: absolute;
+    top: 15%;
+    right: 42.5%;
+    padding: 0 0px;
+}
+.icons-f{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    font-size: 20px;
+    transition: all 500ms ease;
+    flex-direction: none;
+}
+.icons-f:hover{
+    background: #009ad8;
+    color: white;
+    transition: all 500ms;
+    cursor: pointer;
+}
+@media (min-width:320px){
+    .sear input[type="submit"]{
+        border: none;
+        background: #009ad8;
+        padding: 5px 5px;
+        border-radius: 30px;
+        color: white;
+    }
+    form input[type="submit"]{
+        position: absolute;
+        top: 15%;
+        right: 18.5%;
+        padding: 0 0px;
+    }
+    .sear input[type="button"]{
+        border: none;
+        background: #009ad8;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white;
+    }
+    form input[type="button"]{
+        position: absolute;
+        top: 43.5%;
+        right: 21%;
+        padding: 0 0px;
+    }
+    #forecast{ 
+        top: -90px;
+     }
+}
+@media (min-width:640px){
+    .sear input[type="submit"]{
+        border: none;
+        background: #009ad8;
+        padding: 10px 10px;
+        border-radius: 30px;
+        color: white;
+    }
+    form input[type="submit"]{
+        position: absolute;
+        top: 13%;
+        right: 12.5%;
+        padding: 0 0px;
+    }
+    .sear input[type="button"]{
+        border: none;
+        background: #009ad8;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white;
+    }
+    form input[type="button"]{
+        position: absolute;
+        top: 43.5%;
+        right: 21%;
+        padding: 0 0px;
+    }
+    #forecast{
+        top: -90px;
+     }
+}
+@media (min-width:992px){
+    .sear input[type="submit"]{
+        border: none;
+        background: #009ad8;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white;
+    }
+    form input[type="submit"]{
+        position: absolute;
+        top: 15%;
+        right: 12.5%;
+        padding: 0 0px;
+    }
+    .sear input[type="button"]{
+        border: none;
+        background: #009ad8;
+        padding: 12px 70px;
+        border-radius: 30px;
+        color: white;
+    }
+    form input[type="button"]{
+        position: absolute;
+        top: 43%;
+        right: 21%;
+        padding: 0 0px;
+    }
+    #forecast{
+       top: -120px;
+    }
+}
